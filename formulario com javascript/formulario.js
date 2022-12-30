@@ -2,6 +2,7 @@ const form = document.getElementById("formulario");
 
 let campoA = document.getElementById("campoA");
 
+
 let campoB = document.getElementById("campoB");
 
 const mensagemDeSucesso = "O formulário é válido, pois o número do campo B tem valor maior do que o número do campo A"
@@ -20,13 +21,9 @@ form.addEventListener("submit", function(e){
     containerMensagemDeErro.style.display = "none"
     containerMensagemDeSucesso.style.display = "none"
 
-    if (campoA.value >= campoB.value) {
+    if (parseInt(campoA.value) >= parseInt(campoB.value)) {
         containerMensagemDeErro.style.display = "block"
     }else {
         containerMensagemDeSucesso.style.display = "block"
     }
-    
-    
-
 })
-
