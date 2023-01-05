@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    background-color: #2B4257;
+    color: #fff;
+}
+
+h1,form{
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul{
+    display: inline;
+    justify-content: center;
+    list-style:none;
+}
+
+form{
+    background-color: #C8D7E4;
+}
+
+input, button{
+    padding: 8px;
+}
+
+input{
+    margin-right: 4px;
+}
+button{
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.realizado{
+    text-decoration: line-through;
+}
+
+li{
+    cursor: pointer;
+    margin-left: 50%;
+}
+
+
+
+
+
