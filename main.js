@@ -4,7 +4,7 @@ function NotasAlunos(nomeDoAluno, notaDoAluno){
 
     function RetornaNota(){
     if (notaDoAluno >= 6){
-        return this.nome = nomeDoAluno
+        return nomeDoAluno
     } else{
         return ("O aluno não atingiu a nota mínina")
     }
